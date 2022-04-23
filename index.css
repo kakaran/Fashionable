@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;1,200&family=Quicksand:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,300;1,400&family=Quicksand:wght@300;400&display=swap');
+
+header{
+    background-color: #FFFFFF;
+    padding: 50px;
+}
+h1
+{
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: 60px;
+    /* font-family: 'Mulish', sans-serif; */
+    font-family: 'Quicksand', sans-serif;
+}
+*
+{
+    margin:0%;
+}
+nav{
+    background-color: #FFFFFF;
+    padding: 35px;
+    /* font-family: 'IBM Plex Serif', serif; */
+    font-family: 'Quicksand', sans-serif;
+}
+.nav
+{
+    flex-wrap: wrap;
+    margin-left: 50px;
+    display: block;
+}
+li{
+    float: left;
+    list-style: none;
+}
+a
+{
+    color: black;
+    margin-left:25px;
+    font-size:20px;
+    text-decoration: none;
+    text-align: center;
+}
+/* .dropdown
+{
+    display: none;
+}
+.designer:hover .dropdown
+{
+display: block;
+}
+.type
+{
+    float:none;
+    background-color:aliceblue; 
+    padding: 30px;
+
+}
+.type a
+{
+    text-align: center;
+} */
+.homeborder
+{
+    width:100%;
+    height: 700px;
+}
+.homeimage
+{
+    width: 100%;
+    height: 700px;
+}
+.contanier
+{
+    /* /* display: flex;
+    flex-direction: column; */
+    padding: 200px;
+    position: absolute; 
+    
+} 
+.text
+{
+    width: 450px;
+    position:absolute;
+    left:150px;   
+}
+.text h2{
+    font-size: 25.8px;
+    padding:20px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+.text-3{
+    font-size: 19px;
+    padding:20px;
+    color: #2E3033;
+    font-family: Metropolis,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.bordershopbutt
+{
+     padding:20px;
+     /* text-align: center; */
+
+}
+.bordershopbutt button
+{
+    width: 300px;
+    height: 55px;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.listcontanier,.boxcontanier,.footercontanier
+{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.elem
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 250px;
+    justify-content: space-around;
+}
+.elem img{
+    width: 250px;
+    height: 350px;
+}
+.elemtext
+{
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+.elemtext h3{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding: 10px;
+}
+.pelemtext{
+    padding: 10px;
+    font-size: 20px;
+    color: #707173;
+}
+.pelemtext p
+{
+    font-size: 20px;
+}
+.productheding
+{
+    text-align: center;
+    padding: 40px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 32px;
+    margin: 20px;
+}
+.product {
+    margin: 40px;
+}
+.elem1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 5500px;
+    justify-content: space-around;
+}
+.elem1 img{
+    width: 550px;
+    height: 500px;
+}
+.elem1text
+{
+    padding: 20px;
+    padding-left: 0px;
+    align-self: flex-start;
+
+}
+.elem1text h3{
+    padding: 10px;
+    padding-left: 0%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+}
+
+.pelemtext2{
+    font-size: 20px;
+    color: #707173;
+    padding: 10px;
+    padding-left: 0%;
+    margin: 0px;
+}
+.mazerproduct
+{
+    margin:100px;
+    margin-top:200px;
+    margin-bottom:200px;
+
+}
+footer
+{
+    background-color:black;
+    width:100%;
+    height: 500px;
+}
+.elem2 h3
+{
+    color: white;
+}
+.customer
+{
+    padding: 20px;
+    padding-left: 0%;
+    color: white;
+    font-size: 20px;
+}
+.elem2
+{
+    font-size: 20px;
+    
+}
+.customertext
+{
+    padding: 5px;
+    padding-left:0%;
+}
+.elem2
+{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    width: 300px;
+    justify-content: space-around;
+    margin-top:60px;
+}
+
