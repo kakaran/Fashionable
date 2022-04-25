@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;1,200&family=Quicksand:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,300;1,400&family=Quicksand:wght@300;400&display=swap');
+
+header{
+    background-color: #FFFFFF;
+    padding: 50px;
+}
+h1
+{
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: 60px;
+    /* font-family: 'Mulish', sans-serif; */
+    font-family: 'Quicksand', sans-serif;
+}
+*
+{
+    margin:0%;
+}
+nav{
+    background-color: #FFFFFF;
+    padding: 35px;
+    /* font-family: 'IBM Plex Serif', serif; */
+    font-family: 'Quicksand', sans-serif;
+}
+.nav
+{
+    flex-wrap: wrap;
+    margin-left: 50px;
+    display: block;
+}
+li{
+    float: left;
+    list-style: none;
+}
+a
+{
+    color: black;
+    margin-left:25px;
+    font-size:20px;
+    text-decoration: none;
+    text-align: center;
+}
+.footercontanier
+{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.contanierbag
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+    /* position: fixed; */
+    /* grid-gap: 10px; */
+    /* min-width: 95%;
+    min-height: 90%; */
+    margin: 10px;
+}
+.box
+{
+    display: grid;
+    justify-content: space-around;
+
+}
+.product
+{
+    width: 596px;
+    height: 1000px;
+    padding: 20px;
+}
+.product img{
+
+    width: 596px;
+    height: 596px;
+
+}
+.certified
+{
+    width: 596px;
+    height: 170px;
+    text-align: center;
+    background-color: #F8F8F8;
+    padding: 20px;
+}
+h3{
+    font-size: 25px;
+    padding: 7px;
+    text-align: center;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+.detail
+{
+    font-size: 20px;
+    padding: 7px;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+.sell
+{
+    background-color: #F8F8F8;
+    width: 298px;
+    height: 130px;
+    margin: 20px;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    margin-left: 0px;
+}
+.detaling
+{
+    display: flex;
+    flex-direction: row;
+    padding-bottom:20px ;
+}
+.content{
+
+    height: 1000px;
+    padding: 20px;
+    width: 596px;
+} 
+
+h2{
+    font-size: 30px;
+    padding: 10px;
+    padding-left:0px;
+    letter-spacing: 10px;
+    font-family: 'Raleway', sans-serif;
+
+}
+.mediumdetail
+{
+    font-size: 25px;
+    padding: 15px;
+    padding-left: 0px;
+    font-family: 'Raleway', sans-serif;
+
+
+}
+.rate
+{
+    font-size: 25px;
+    padding: 30px;
+    padding-left: 0px;
+}
+.smalldetail
+{
+    font-size: 17px;
+    padding: 15px;
+    padding-left: 0px;
+    color: #595959;
+    font-family: 'Raleway', sans-serif;
+
+}
+button
+{
+    width: 500px;
+    height: 70px;
+    background-color: black;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 4px 4px 10px;
+}
+.button
+{
+    text-align: center;
+    color:white;
+    
+}
+.smalldetail2
+{
+    font-size: 17px;
+    padding: 15px;
+    padding-left: 0px;
+    color: #595959;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.itemheader
+{
+    font-size: 25px;
+    padding: 15px;
+    padding-left: 0px;
+    font-family: 'Raleway', sans-serif;
+
+}
+.itemdeta
+{
+    font-size: 20px;
+    padding: 9px;
+    padding-left: 0px;
+    color: #595959;
+    font-family: 'Raleway', sans-serif;
+
+}
+button:hover
+{
+    text-decoration:underline;
+}
+
+
+
+footer
+{
+    background-color:black;
+    width:100%;
+    height: auto;
+}
+.elem2 h3
+{
+    color: white;
+}
+.customer
+{
+    padding: 20px;
+    padding-left: 0%;
+    color: white;
+    font-size: 20px;
+}
+.elem2
+{
+    font-size: 20px;
+    
+}
+.customertext
+{
+    padding: 5px;
+    padding-left:0%;
+}
+.elem2
+{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    width: 300px;
+    justify-content: space-around;
+    margin-top:60px;
+}
+
