@@ -39,14 +39,12 @@ li{
     float: left;
     list-style: none;
 }
-.nav-detail
-{
+.nav-detail{
     color: black;
     margin-left:25px;
     font-size:20px;
     text-decoration: none;
     text-align: center;
-
 }
 /* .dropdown
 {
@@ -67,67 +65,10 @@ display: block;
 {
     text-align: center;
 } */
-.homeborder
+.next
 {
-    width:100%;
-    height: 700px;
-}
-.homeimage
-{
-    width: 100%;
-    height: 700px;
-}
-.contanier
-{
-    /* /* display: flex;
-    flex-direction: column; */
-    padding: 200px;
-    position: absolute; 
-    
-} 
-.text
-{
-    width: 450px;
-    position:absolute;
-    left:150px;   
-}
-.text h2{
-    font-size: 25.8px;
-    padding:20px;
-    letter-spacing: 10px;
-    text-transform: uppercase;
-}
-.text-3{
-    font-size: 19px;
-    padding:20px;
-    color: #2E3033;
-    font-family: Metropolis,Helvetica Neue,Helvetica,Arial,sans-serif;
-}
-.bordershopbutt
-{
-     padding:20px;
-     /* text-align: center; */
-
-}
-.bordershopbutt button
-{
-    width: 300px;
-    height: 55px;
-    color: white;
-    background-color: black;
-    font-size: 20px;
-    cursor: pointer;
-
-}
-button:hover{
-    text-decoration: underline;
-}
-.listcontanier,.boxcontanier,.footercontanier
-{
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    margin-left:90px;
+    margin-right:90px;
 }
 .elem
 {
@@ -135,13 +76,13 @@ button:hover{
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-    width: 250px;
+    width: 470px;
     justify-content: space-around;
     align-content: center;
 }
 .elem img{
-    width: 250px;
-    height: 350px;
+    width: 430px;
+    height: 450px;
 }
 .elemtext
 {
@@ -153,7 +94,6 @@ button:hover{
     text-transform: uppercase;
     letter-spacing: 5px;
     padding: 10px;
-    color: black
 }
 .elemtext h3:hover{
     text-decoration: underline;
@@ -180,52 +120,25 @@ button:hover{
 .product {
     margin: 40px;
 }
-.elem1
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 550px;
-    justify-content: space-around;
-}
-.elem1 img{
-    width: 550px;
-    height: 500px;
-}
-.elem1text
-{
-    padding: 20px;
-    padding-left: 0px;
-    align-self: flex-start;
 
-}
-.elem1text h3{
-    padding: 10px;
-    padding-left: 0%;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 30px;
-}
 
-.pelemtext2{
-    font-size: 20px;
-    color: #707173;
-    padding: 10px;
-    padding-left: 0%;
-    margin: 0px;
-}
-.mazerproduct
-{
-    margin:100px;
-    margin-top:200px;
-    margin-bottom:200px;
 
-}
+
+
+
+
 footer
 {
     background-color:black;
     width:auto;
     height: auto;
+}
+.footercontanier,.listcontanier
+{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .elem2 h3
 {

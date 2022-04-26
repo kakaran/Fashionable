@@ -8,6 +8,11 @@ header{
     background-color: #FFFFFF;
     padding: 50px;
 }
+.name
+{
+    text-decoration: none;
+    color: black;
+}
 h1
 {
     margin-right: 5%;
@@ -36,7 +41,7 @@ li{
     float: left;
     list-style: none;
 }
-a
+.nav-detail
 {
     color: black;
     margin-left:25px;
@@ -166,7 +171,8 @@ button
 {
     text-align: center;
     color:white;
-    
+    font-size: 25px;
+    text-decoration: none;
 }
 .smalldetail2
 {
@@ -220,11 +226,7 @@ footer
     color: white;
     font-size: 20px;
 }
-.elem2
-{
-    font-size: 20px;
-    
-}
+
 .customertext
 {
     padding: 5px;
@@ -239,5 +241,7 @@ footer
     width: 300px;
     justify-content: space-around;
     margin-top:60px;
+    font-size: 20px;
+
 }
 
