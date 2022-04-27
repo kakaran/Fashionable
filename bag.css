@@ -49,6 +49,12 @@ li{
     text-decoration: none;
     text-align: center;
 }
+.login
+{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
 .footercontanier
 {
     display:flex;

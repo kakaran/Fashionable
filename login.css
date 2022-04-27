@@ -48,6 +48,12 @@ li{
     text-align: center;
 
 }
+.login
+{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
 /* .dropdown
 {
     display: none;

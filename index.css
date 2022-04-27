@@ -35,6 +35,12 @@ nav{
     margin-left: 50px;
     display: block;
 }
+.login
+{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
 li{
     float: left;
     list-style: none;
