@@ -122,6 +122,8 @@ display: block;
     color: white;
     background-color: black;
     font-size: 20px;
+    border-radius: 9px;
+    box-shadow: 4px 4px 5px black;
     cursor: pointer;
 
 }
