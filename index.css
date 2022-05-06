@@ -11,6 +11,14 @@ header{
     text-decoration: none;
     color: black;
 }
+.name2
+{
+    text-decoration: none;
+    color: white;
+}
+.name2:hover{
+    text-decoration: underline;
+}
 h1
 {
     margin-right: 5%;

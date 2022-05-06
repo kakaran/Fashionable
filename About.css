@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;1,200&family=Quicksand:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,300;1,400&family=Quicksand:wght@300;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;1,300;1,400&family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;1,300;1,400&display=swap');
 
 
 header{
@@ -12,6 +13,14 @@ header{
 {
     text-decoration: none;
     color: black;
+}
+.name2
+{
+    text-decoration: none;
+    color: white;
+}
+.name2:hover{
+    text-decoration: underline;
 }
 h1
 {
@@ -37,6 +46,12 @@ nav{
     margin-left: 50px;
     display: block;
 }
+.login
+{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
 li{
     float: left;
     list-style: none;
@@ -49,12 +64,6 @@ li{
     text-decoration: none;
     text-align: center;
 
-}
-.login
-{
-    display: flex;
-    flex-direction: row-reverse;
-    
 }
 /* .dropdown
 {
@@ -75,124 +84,54 @@ display: block;
 {
     text-align: center;
 } */
-.background
-{
-    background-color: #F0F1F4;
-    width:auto;
-    height:auto;
-    background-image: url(img/login-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: 300px;
-    background-position:right top;
-}
-.buttons
-{
-    display: flex;
-    padding: 50px;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.button
-{
-    border:0px;
-    font-size: 20px;
+.imgCenter {
     padding: 10px;
 }
-.login
+.image
 {
-    padding: 15px;
+    display: flex;
+    justify-content: center;
+
 }
 
-.button:hover{
-    border-bottom:3px solid black;
+.center {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
 }
 
-.user-detail
+.desc {
+    margin: 10px;
+    text-align: left;
+}
+
+.contaner3
 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;    
-    padding-bottom:20px;
-    
+    margin-left: 115px;
+    margin-right: 115px;
 }
-.label
+
+.para
+{text-align: justify;
+padding: 15px;
+font-family: 'Nanum Gothic', sans-serif;
+}
+
+.head
 {
-    font-size: 25px;
-    padding: 20px;
-    padding-left: 0px;
-    font-family: 'Nanum Gothic', sans-serif;
+    padding: 10px;
+    font-family: 'Titillium Web', sans-serif;
 }
-.box{
-    width: 500px;
-    height: 60px;
-    border: 0px;
-    font-size: 25px;
-}
-.checkbox
-{
-    padding: 15px;
-    padding-left: 0px;
-}
-.checkboxes
-{
-    font-size: 20px;
-}
-.checkboxes2
-{
-    font-size: 20px;
-    padding: 15px;
-    padding-left: 0px;
-}
-.buttlogin
-{
-    width: 500px;
-    height: 60px;
-    font-size: 20px;
-    background-color: black;
-    color: white;
-    cursor: pointer;
-    box-shadow: 4px 4px 6px black;
-    border-radius: 7px;
-}
-.buttlogin:hover{
-    text-decoration: underline;
-}
-.account
-{
-    display: flex;
-    flex-direction: column;
-    
-}
-.accountlist
-{
-    display: flex;
-    flex-direction: column;
-    
-}
-.accountdetail
-{
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-    width: 500px;
-    /* border:1px solid black; */
-    height: auto;
-}
-.logincontaniers
-{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-left: 200px;
-}
-.listcontanier,.boxcontanier,.footercontanier
+
+
+.footercontanier
 {
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
 footer
 {
     background-color:black;
@@ -229,12 +168,4 @@ footer
     width: 300px;
     justify-content: space-around;
     margin-top:60px;
-}
-.name2
-{
-    text-decoration: none;
-    color: white;
-}
-.name2:hover{
-    text-decoration: underline;
 }

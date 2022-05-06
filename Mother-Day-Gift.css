@@ -177,3 +177,11 @@ footer
     justify-content: space-around;
     margin-top:60px;
 }
+.name2
+{
+    text-decoration: none;
+    color: white;
+}
+.name2:hover{
+    text-decoration: underline;
+}

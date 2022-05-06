@@ -250,4 +250,12 @@ footer
     font-size: 20px;
 
 }
+.name2
+{
+    text-decoration: none;
+    color: white;
+}
+.name2:hover{
+    text-decoration: underline;
+}
 
